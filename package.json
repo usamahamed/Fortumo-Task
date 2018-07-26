@@ -1,0 +1,38 @@
+{
+  "author": "Usama Hamed <osama.hamed2011@gmail.com> (usamahamed.tk)",
+  "name": "Fortumo Task",
+  "description": "iterator which polls a number of external services and if a certain criterion is met, redirects the user elsewhere",
+  "version": "0.0.1",
+  "homepage": "usamahamed.tk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usamahamed/Fortumo-Task.git"
+  },
+  "engines": {
+    "node": "0.12.x"
+  },
+  "dependencies": {
+    "backbone": "^1.1.2",
+    "browser-sync": "^2.8.2",
+    "chai": "^2.3.0",
+    "expect.js": "0.1.2",
+    "jasmin": "0.0.2",
+    "jquery": "^1.11.0",
+    "mocha": "^2.2.4",
+    "sinon": "^1.14.1",
+    "underscore": "1.8.x"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node index.js"
+  
+  },
+  "bugs": {
+    "url": "hhttps://github.com/usamahamed/Fortumo-Task/issues"
+  },
+  "private": true,
+  "devDependencies": {
+    "eslint": "^2.8.0",
+    "request": "^2.83.0"
+  }
+}
