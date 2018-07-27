@@ -3,6 +3,7 @@
  var initialServiceUrl = 'https://res.cloudinary.com/itgov/raw/upload/v1532636985/first-service.json';
 
             function callServiceProvider(url) {
+              $('.Landing-img').hide(4500);
               $('.percent').show();
                 //timeout for a while to show services
                 var timerId = 0,
@@ -50,6 +51,7 @@
                             return;
                         }
                         if (data.activity === 'redirect') {
+                          $('#start>p').text('Redirect...');
                             var timerId = 0,
                             //timeout for some time before redirect
                           timerId = setTimeout(function(){

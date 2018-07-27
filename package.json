@@ -1,6 +1,6 @@
 {
   "author": "Usama Hamed <osama.hamed2011@gmail.com> (usamahamed.tk)",
-  "name": "Fortumo Task",
+  "name": "Fortumo-Task",
   "description": "iterator which polls a number of external services and if a certain criterion is met, redirects the user elsewhere",
   "version": "0.0.1",
   "homepage": "usamahamed.tk",
@@ -28,7 +28,7 @@
   
   },
   "bugs": {
-    "url": "hhttps://github.com/usamahamed/Fortumo-Task/issues"
+    "url": "https://github.com/usamahamed/Fortumo-Task/issues"
   },
   "private": true,
   "devDependencies": {
