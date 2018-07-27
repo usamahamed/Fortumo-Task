@@ -13,6 +13,9 @@
 
 <h2 align="center">Fortumo Itrator Task</h2>
 Simple iterator which polls a number of external services and if a certain criterion is met, redirects the user elsewhere.
+
+---
+
 ## Introduction
 
 ### From the user's perspective, the experience is as follows:
