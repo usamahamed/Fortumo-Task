@@ -54,7 +54,7 @@ and the last service json format, which is responsible for redirecting after ser
 }
 
 ```
-I host this service on cloud site. i using simple ajax calling which it will recursively that automatically call the next servive until redirecting 
+I host this service on cloud site. i using simple ajax calling which it will recursively and automatically call the next servive until redirecting 
 
 <!-- [START getstarted] -->
 
