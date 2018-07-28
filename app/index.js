@@ -55,7 +55,7 @@
                             var timerId = 0,
                             //timeout for some time before redirect
                           timerId = setTimeout(function(){
-                          window.location = data.activity_url;
+                          window.location = "/app/"+data.activity_url;
                             return;
                             }, 6000)
                         }
